@@ -19,7 +19,7 @@ namespace CadastroDoadores.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=localhost,1433;Database=DB_SistemaDoadores;User Id=sa;Password=MyPass@word;Trusted_Connection=False; ");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-VD7RQPJ\\MSSQLSERVER12,;Database=DB_SistemaDoadores;User Id=sa;Password=sangue1234;Trusted_Connection=False;");
             }
         }
 
